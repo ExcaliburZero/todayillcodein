@@ -20,9 +20,21 @@ function randomLang() {
     return Math.floor((Math.random() * languages.length));
 }
 
-// Put the random computer language name into the page
+// Put a random computer language name into the page
+function setRandomLang() {
+    $('.random-language').html(languages[randomLang()]);
+    return;
+}
+
+// JQuery run once the page loads
 $(document).ready(function() {
 
-    $('.random-language').html(languages[randomLang()]);
+    // Once the page loads, put a random computer language name into the page
+    setRandomLang();
+
+    // Reset the random language displayed when the user clicks on the main text
+    $('.main-text').click(function() {
+        setRandomLang();
+    });
 
 });
