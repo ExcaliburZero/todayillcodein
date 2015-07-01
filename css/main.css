@@ -1,13 +1,29 @@
 /* Font imports */
 @import url(http://fonts.googleapis.com/css?family=Kavoon);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 body {
     background-color: #3498db;
+    height: 100%;
+}
+
+a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .container {
     width: 100%;
     text-align: center;
+    color: #ecf0f1;
+}
+
+.content {
+    margin-bottom: 50px;
 }
 
 .main-text {
@@ -15,4 +31,18 @@ body {
     font-size: 52pt;
     color: #ecf0f1;
     margin-top: 15%;
+}
+
+.random-language {
+    font-family: 'Lobster', cursive;
+    font-size: 52pt;
+    margin-top: 5%;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
