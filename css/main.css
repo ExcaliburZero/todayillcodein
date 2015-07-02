@@ -1,6 +1,6 @@
 /* Font imports */
-@import url(https://fonts.googleapis.com/css?family=Kavoon);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Play);
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 
 body {
@@ -28,14 +28,14 @@ a:hover {
 }
 
 .main-text {
-    font-family: 'Kavoon', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 52pt;
     color: #ecf0f1;
     margin-top: 15%;
 }
 
 .random-language {
-    font-family: 'Lobster', cursive;
+    font-family: 'Play', cursive;
     font-size: 52pt;
     margin-top: 5%;
 }
