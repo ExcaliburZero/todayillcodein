@@ -1,0 +1,8 @@
+/* TEAM */
+Programmer: Christopher Randall Wells
+Contact: cwellsny@nycap.rr.com
+Twitter: ExcaliburZero_Z
+From: New York, United States
+
+/* SITE */
+Components: jQuery
