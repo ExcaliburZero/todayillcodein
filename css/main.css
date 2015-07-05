@@ -48,3 +48,8 @@ a:hover {
     bottom: 0px;
     left: 0px;
 }
+
+h1 {
+    font-size: 100%;
+    font-weight: normal;
+}
