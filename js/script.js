@@ -58,9 +58,9 @@ function randomLang(language_list) {
 // Pick a random list of computer languages
 function randomList() {
     // Set the chance for each list to be chosen
-    var common_range = 84;
-    var uncommon_range = 35;
-    var strange_range = 20;
+    var common_range = 120;
+    var uncommon_range = 30;
+    var strange_range = 15;
     var total_range = common_range + uncommon_range + strange_range;
 
     // Randomly choose the list of languages to choose a random language from
